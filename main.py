@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 
+
 #dice
 dice = input("Dice total:")
 
@@ -32,5 +33,7 @@ image.save(filename)
 # save the file
 image.save(filename)
 
-# open the file
-os.system(filename)
+
+os.system("git add .")
+os.system('git commit -m "image.jpeg"')
+os.system("git push origin master")
