@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
-
+import webbrowser
 
 #dice
 dice = input("Dice total:")
@@ -33,7 +33,13 @@ image.save(filename)
 # save the file
 image.save(filename)
 
-
-os.system("git add .")
+os.system("git pull .")
+os.system("git add -u")
+os.system("git reset -- main.exe")
 os.system('git commit -m "image.jpeg"')
 os.system("git push origin master")
+
+webbrowser.open('https://cranky-swanson-d9be1c.netlify.app/', new=2)
+
+print("Done! 0 errors")
+input()
