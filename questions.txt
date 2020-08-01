@@ -1,0 +1,10 @@
+Dice Total:
+Color:
+Number:
+Food:
+Animal:
+Coin:
+Game:
+Date:
+Time:
+Name:

@@ -1,0 +1,12 @@
+{
+   "filename":"image.png",
+   "url":"URL",
+   "path": "Magic",
+   "email":{
+		"address": "email@gmail.com",
+		"password": "Password123",
+		"subject": "DO NOT OPEN",
+		"smtp_server": "smtp.gmail.com",
+		"port": 465
+   }
+}
