@@ -27,8 +27,8 @@ px = (lines * 45) + 69
 
 sender_email = options['email']['address']
 receiver_email = input("Send email to: ")
-smtp_server = "smtp.gmail.com"
-port = 587  # For starttls
+smtp_server = options['email']['smtp_server']
+port = options['email']['port']
 password = options['email']['password']
 
 message = MIMEMultipart("alternative")
